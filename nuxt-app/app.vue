@@ -1,5 +1,8 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <QuizComponent />
   </div>
 </template>
+<script setup>
+  import { QuizComponent } from '#components'
+</script>
